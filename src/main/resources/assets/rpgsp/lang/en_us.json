@@ -1,0 +1,26 @@
+{
+  "itemGroup.rpgsp.general": "RPG Skillpower Items",
+  "rpgsp.skillpowercost": "OR Skillpower Cost",
+  "item.rpgsp.unsetring": "Unset Ring",
+  "item.rpgsp.emeraldring": "Emerald Ring",
+  "item.rpgsp.opalring": "Opal Ring",
+  "item.rpgsp.amethystring": "Amethyst Ring",
+  "item.rpgsp.diamondring": "Diamond Ring",
+  "item.rpgsp.emerald_awakened": "Awakened Emerald Ring",
+  "item.rpgsp.opal_awakened": "Awakened Opal Ring",
+  "item.rpgsp.amethyst_awakened": "Awakened Amethyst Ring",
+  "item.rpgsp.diamond_awakened": "Awakened Diamond Ring",
+
+  "attribute.name.rpgsp.skillpower" : "Skillpower",
+  "attribute.name.rpgsp.skillpowercost" : "Skillpower Cost",
+  "attribute.name.rpgsp.skillpowerregen" : "Skillpower Regenerated per Second",
+  "attribute.name.rpgsp.spregenperattack" : "Skillpower Regenerated per Attack",
+
+  "effect.rpgsp.sp_regeneraion_indicator": "SkillPower Regeneraion Indicator",
+
+  "desc.rpgsp.skillpower" : "Skillpower can be used instead of runes to cast spells.",
+  "desc.rpgsp.skillpowercost" : "Spells deal more damage the more skillpower you've spent recently (in the past 4 seconds).",
+  "desc.rpgsp.skillpowerregen" : "You regenerate 8 skillpower per second baseline.",
+  "rpgsp.uniquerings" : "Wearing more than one ring of the same type gives no further effect.",
+  "rpgsp.persecond" : " per second and on release"
+}

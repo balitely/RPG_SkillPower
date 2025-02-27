@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "rpgsp:opalring",
+    "rpgsp:diamondring",
+    "rpgsp:emeraldring",
+    "rpgsp:amethystring",
+    "rpgsp:amethyst_awakened",
+    "rpgsp:diamond_awakened",
+    "rpgsp:emerald_awakened",
+    "rpgsp:opal_awakened",
+    "rpgsp:unsetring"
+
+  ]
+}

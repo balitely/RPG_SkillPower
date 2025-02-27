@@ -1,0 +1,26 @@
+{
+  "itemGroup.rpgsp.general": "SP相关物品",
+  "rpgsp.skillpowercost": "或SP消耗",
+  "item.rpgsp.unsetring": "未定型的戒指",
+  "item.rpgsp.emeraldring": "绿宝石戒指",
+  "item.rpgsp.opalring": "蛋白石戒指",
+  "item.rpgsp.amethystring": "紫水晶戒指",
+  "item.rpgsp.diamondring": "钻石戒指",
+  "item.rpgsp.emerald_awakened": "觉醒的绿宝石戒指",
+  "item.rpgsp.opal_awakened": "觉醒的蛋白石戒指",
+  "item.rpgsp.amethyst_awakened": "觉醒的紫水晶戒指",
+  "item.rpgsp.diamond_awakened": "觉醒的钻石戒指",
+
+  "attribute.name.rpgsp.skillpower" : "最大SP",
+  "attribute.name.rpgsp.skillpowercost" : "SP消耗",
+  "attribute.name.rpgsp.skillpowerregen" : "每秒回复SP",
+  "attribute.name.rpgsp.spregenperattack" : "每次攻击回复SP量",
+
+  "effect.rpgsp.sp_regeneraion_indicator": "SP回复指示器",
+
+  "desc.rpgsp.skillpower" : "SP可以用于替代需求物品进行技能施法.",
+  "desc.rpgsp.skillpowercost" : "技能会基于四秒内消耗的SP数量来获得伤害增幅",
+  "desc.rpgsp.skillpowerregen" : "默认情况下每秒再生1点SP",
+  "rpgsp.uniquerings" : "穿戴同种加成的戒指不会获得效果叠加",
+  "rpgsp.persecond" : "每秒与释放"
+}
