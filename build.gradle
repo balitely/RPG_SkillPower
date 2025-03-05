@@ -66,6 +66,7 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "mod.azure.azurelib:azurelib-common-1.20.1:2.0.41"
 	modImplementation("maven.modrinth:spell-engine:${project.spell_engine_version}")
+	modImplementation("maven.modrinth:Arch-RPGMana:${project.rpgmana_version}")
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modCompileOnly fileTree(dir: "run/mods", includes: ['*.jar'])
