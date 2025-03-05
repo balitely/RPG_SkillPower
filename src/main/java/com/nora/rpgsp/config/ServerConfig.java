@@ -21,6 +21,9 @@ public class ServerConfig implements ConfigData {
     @Comment("Do not apply Skillpower Costs (and therefore Skillpower Compatibility) to spells matching this regex.")
     public String blacklist_spell_casting_regex = "";
 
+    @Comment("Apply Both Skillpower and Mana Costs to spells matching this regex.")
+    public String whitelist_spell_casting_regex = "";
+
     @Comment("Apply skillpower costs to select spells (Format: 'spellid': 40)")
     public LinkedHashMap<String, Integer> spells = new LinkedHashMap<String, Integer>() {
         {

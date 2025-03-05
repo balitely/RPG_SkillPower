@@ -53,17 +53,17 @@ public class InGameHud  implements HudRenderCallback {
 					RenderSystem.enableBlend();
 					RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
 					double skillpowerprop = (skillpowerInterface.getSkillpower() / skillpowerInterface.getMaxSkillpower());
-					int i = (int) (skillpowerprop * (91));
+					int i = (int) (skillpowerprop * (182));
 					int k = scaledWidth;
 
-					drawContext.drawTexture(spback, (int) ((k / 2) - 91 / 2), scaledHeight - 11 - 3 - 8, 0, 0, 91, 5, 91, 5);
+					drawContext.drawTexture(spback, (int) ((k / 2) - 182 / 2), scaledHeight - 5 - 3 - 8, 0, 0, 182, 5, 182, 5);
 					if (skillpowerprop > 0) {
-						drawContext.drawTexture(spbar, (int) ((k / 2) - 91 / 2), scaledHeight - 11 - 3 - 8, 0, 0, Math.min(i, 91), 5, 91, 5);
+						drawContext.drawTexture(spbar, (int) ((k / 2) - 182 / 2), scaledHeight - 5 - 3 - 8, 0, 0, Math.min(i, 182), 5, 182, 5);
 					} else {
-						drawContext.drawTexture(spbarneg, (int) ((k / 2) - 91 / 2), scaledHeight - 11 - 3 - 8, 0, 0, Math.min(-i, 91), 5, 91, 5);
+						drawContext.drawTexture(spbarneg, (int) ((k / 2) - 182 / 2), scaledHeight - 5 - 3 - 8, 0, 0, Math.min(-i, 182), 5, 182, 5);
 
 					}
-					drawContext.drawTexture(spticks, (int) ((k / 2) - 91 / 2), scaledHeight - 11 - 3 - 8, 0, 0, Math.min(i, 91), 5, 91, 5);
+					drawContext.drawTexture(spticks, (int) ((k / 2) - 182 / 2), scaledHeight - 5 - 3 - 8, 0, 0, Math.min(i, 182), 5, 182, 5);
 					RenderSystem.disableBlend();
 					RenderSystem.setShaderColor(1.0f, 1.0f, 1.0f, 1.0f);
 				}

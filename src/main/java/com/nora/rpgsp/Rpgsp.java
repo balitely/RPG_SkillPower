@@ -55,6 +55,7 @@ import net.tinyconfig.ConfigManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.lang.reflect.Field;
 import java.util.List;
 
 import static net.spell_engine.internals.SpellHelper.*;
@@ -109,7 +110,6 @@ public class Rpgsp implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-
 		SPREGENERATIONINDICATOR = new SpRegeneraionIndicator(StatusEffectCategory.BENEFICIAL, 9154528)
 				.addAttributeModifier(Rpgsp.SKILLPOWERREGEN,"3a33dd71-5941-5bb8-79ab-3deb43a17927",20,EntityAttributeModifier.Operation.ADDITION);
 		Registry.register(Registries.STATUS_EFFECT,new Identifier(MOD_ID,"sp_regeneraion_indicator"),SPREGENERATIONINDICATOR);
@@ -163,5 +163,4 @@ public class Rpgsp implements ModInitializer {
 		});
 
 	}
-
 }
