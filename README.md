@@ -7,3 +7,5 @@ If you want your spells to consume only SP or Mana, add them to the "blacklist_s
 
 I developed this mod for my modpack based on the code from RPGMana (with credit to cleanrooster for sharing the source code). 
 It has been tested to work alongside RPGMana, and I plan to expand on it with more features in future updates.hope this mod is helpful to you.
+
+Starting from version 1.0.1, this mod requires RPGMana as a dependency and allows creating spells that consume both Mana and SP simultaneously.
